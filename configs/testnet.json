@@ -1,0 +1,5 @@
+{
+  "rpc": "https://rpc.ankr.com/monad_testnet",
+  "chainId": 10143,
+  "tradeExecutorAddress": ""
+}

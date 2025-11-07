@@ -1,0 +1,19 @@
+{
+  "name": "singularity",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy_testnet.ts --network monadTestnet",
+    "deploy:mainnet": "hardhat run scripts/deploy_mainnet.ts --network monadMainnet",
+    "bot:start": "ts-node-esm bot/index.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.16.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0",
+  }
+}
